@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/icon_logo_about" />
+
+    <TextView
+        android:id="@+id/about_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="144dp"
+        android:text="Beata 0.8"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/space_26" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:gravity="fill"
+        android:padding="8dip"
+        android:text="    在您使用此App的时候，如果弹出广告，而您又不介意的话，不妨安装下广告，给我增加点收入，让我更好的学习，争取做出更好的App。\r\n\r\n    另：本着开源精神，后期会开放源码，敬请期待..."
+        android:textColor="@color/listitem_blue"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="50dip"
+        android:gravity="center"
+        android:padding="5dip"
+        android:text="任何问题和建议欢迎向IJoke开发者361932463@qq.com反馈"
+        android:textColor="@color/gray"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="30dip"
+        android:text="Copyright © 2015 AndyGo 版权所有"
+        android:textColor="@color/gray" />
+
+</FrameLayout>

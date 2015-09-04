@@ -1,0 +1,98 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <!-- 文本 - 滑动标签标题 -->
+    <style name="text_slidingTabTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_slide_title</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- app main menu style start! -->
+    <!-- 菜单layout的样式 -->
+    <style name="MenuItemLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">55dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingRight">15dip</item>
+        <item name="android:background">@drawable/menu_layout_item_selector</item>
+    </style>
+    <!-- 菜单ImageView的样式 -->
+    <style name="MenuItemImageViewStyle">
+        <item name="android:layout_width">18dip</item>
+        <item name="android:layout_height">18dip</item>
+        <item name="android:layout_marginRight">15dip</item>
+    </style>
+
+    <!-- 菜单TextView的样式 -->
+    <style name="MenuItemTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#dcdcdc</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+
+    <style name="ListSpinner">
+        <item name="android:layout_width">52dip</item>
+        <item name="android:layout_height">52dip</item>
+    </style>
+
+    <!-- 列表用户头像的样式 -->
+    <style name="UserFaceImageStyle">
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:padding">1.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:contentDescription">face</item>
+        <item name="android:src">@drawable/widget_dface_loading</item>
+    </style>
+    <!-- project list text style bgein -->
+    <style name="project_list_text_parent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- title -->
+    <style name="project_list_title" parent="project_list_text_parent">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/project_listitem_title</item>
+        <item name="android:textSize">@dimen/text_size_17</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- description -->
+    <style name="project_list_description" parent="project_list_text_parent">
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:textColor">@color/project_listitem_description</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <!--
+        <item name="android:maxLines">4</item>
+        <item name="android:ellipsize">end</item>        -->
+    </style>
+
+    <!-- language starfork nums -->
+    <style name="project_list_someinfo" parent="project_list_text_parent">
+        <item name="android:layout_marginLeft">3dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:textColor">@color/project_listitem_someinfo</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <!-- language star fork nums icon -->
+    <style name="project_list_img">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+</resources>

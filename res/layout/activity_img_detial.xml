@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center" >
+
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/img_src"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/img_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/menu_layout_item_selector"
+        android:padding="12dp"
+        android:src="@android:drawable/stat_sys_download_done" />
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!-- 菜单layout item颜色 -->
+    <color name="menu_layout_default">#363636</color>
+    <color name="menu_layout_item_pressed_color">#252525</color>
+    <color name="text_description">#666666</color>
+    <color name="project_detail_item">#e2e0e0</color>
+    <!-- 列表所需颜色值 -->
+    <color name="listitem_transparent">#00000000</color>
+    <color name="listitem_black">#515151</color>
+    <color name="listitem_white">#ffffffff</color>
+    <color name="listitem_blue">#294fa1</color>
+    <color name="listitem_gray">#515151</color>
+    <color name="listitem_green">#ffe3ffc6</color>
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+    <!-- project list color -->
+    <color name="project_listitem_title">#294fa1</color>
+    <color name="project_listitem_description">#515151</color>
+    <color name="project_listitem_someinfo">#b6b6b6</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+
+</resources>

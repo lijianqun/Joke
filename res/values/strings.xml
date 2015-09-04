@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">笑话惨了</string>
+    <string name="action_settings">设置</string>
+    <string name="img_description">img description</string>
+    <string name="main_menu_login_tips">点击登录</string>
+    <string name="main_menu_title_explore">本地段子</string>
+    <string name="main_menu_title_myself">网络段子1</string>
+    <string name="main_menu_title_notice">通知</string>
+    <string name="main_menu_title_language">网络段子2</string>
+    <string name="main_menu_title_shake">摇一摇</string>
+    <string name="main_menu_title_setting">设置</string>
+    <string name="main_menu_title_exit">退出</string>
+    <string name="back_exit_tips">再按一次返回键退出应用</string>
+    <string name="load_more">点击载入更多</string>
+    <string name="load_ing">加载中···</string>
+    <string name="load_full">已加载全部</string>
+    <string name="load_empty">暂无数据</string>
+    <string name="load_error">加载数据出错</string>
+    <string name="new_data_toast_message">有 %d 条更新</string>
+    <string name="new_data_toast_none">没有新更新</string>
+    <string name="search_hint">搜点高逼格的笑话</string>
+    <string name="search_empty">抱歉，没有匹配到任何笑话</string>
+    <string name="img_from_camera">手机拍照</string>
+    <string name="img_from_album">手机相册</string>
+    <!-- 消息 -->
+    <string name="network_not_connected">网络连接失败，请检查网络设置</string>
+    <string name="xml_parser_failed">数据解析异常</string>
+    <string name="io_exception_error">文件流异常</string>
+    <string name="http_status_code_error">网络异常，错误码：%d</string>
+    <string name="http_exception_error">网络异常，请求超时</string>
+    <string name="socket_exception_error">网络异常，读取数据超时</string>
+    <string name="app_run_code_error">应用程序运行时异常</string>
+
+</resources>

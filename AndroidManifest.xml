@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jamtu.joke"
+    android:versionCode="5"
+    android:versionName="1.2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+    <!-- =======================SDK Start=========================== -->
+    <supports-screens android:anyDensity="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- =======================SDK End=========================== -->
+    <application
+        android:name="com.jamtu.App"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WelcomePage"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="笑话惨了"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="笑话搜索"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ImgDetialActivity"
+            android:label="查看图片"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".SettingActivity"
+            android:label="设置"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".About"
+            android:label="关于IJoke"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".MySelfInfoActivity"
+            android:label="个人信息"
+            android:launchMode="singleTask" />
+
+        <service android:name="com.jamtu.service.JokeService" />
+        <!-- =======================SDK Start=========================== -->
+        <!--
+        <activity
+            android:name="com.mx.MainActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:taskAffinity=".yjoke"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <receiver android:name="com.mx.MsgReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.mx.ActionService" />
+        -->
+
+
+        <!-- =======================SDK End=========================== -->
+
+
+        <!-- =====================聚富============================= -->
+        <activity
+            android:name="com.joke.CActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:taskAffinity=".cjoke"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.joke.CService" />
+        <!-- =====================聚富====================== -->
+
+
+        <!-- ======================畅想====================== -->
+        <activity
+            android:name="com.ijoke.rrcp.CActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <receiver android:name="com.ijoke.rrcp.CBroadcast" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.ijoke.rrcp.CService" />
+        <!-- ======================畅想====================== -->
+    </application>
+
+</manifest>

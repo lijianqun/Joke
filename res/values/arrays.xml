@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- 数组资源 -->
+    <!-- 发现页面 -->
+    <string-array name="joke_title_array">
+        <item>幽默</item>
+        <item>恶心</item>
+        <item>民间</item>
+        <item>愚人</item>
+        <item>趣闻</item>
+        <item>动物</item>
+    </string-array>
+
+    <!-- 个人页面 -->
+    <string-array name="myself_title_array">
+        <item>最新动态</item>
+        <item>项目</item>
+        <item>Star</item>
+        <item>Watch</item>
+    </string-array>
+
+</resources>
